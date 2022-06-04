@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 project(tic_tac_toe C)
 
 set(CMAKE_C_STANDARD 11)
+set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${tic_tac_toe_SOURCE_DIR}/cmake")
 
